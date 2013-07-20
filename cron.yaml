@@ -1,3 +1,4 @@
+cron:
 - description: gominohi oshirase bot
   url: /gominohi/
   schedule: every day 01:00
