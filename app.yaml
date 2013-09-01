@@ -1,4 +1,4 @@
-application: YOUR_APPLICATION_NAME
+application: hayashih-hrd
 version: 4
 runtime: python27
 api_version: 1
@@ -12,6 +12,12 @@ libraries:
   version: latest
 
 handlers:
+
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /bootstrap
+  static_dir: bootstrap
 
 - url: /gominohi/.*
   script: gominohi_main.app

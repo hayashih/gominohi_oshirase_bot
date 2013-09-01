@@ -16,6 +16,8 @@ PREFIX = "/gominohi"
 app = webapp2.WSGIApplication(
   [
       (PREFIX + '/', Home),
+      (PREFIX + '/fuck', ShutTheFuckUp),
+      (PREFIX + '/yachin', Yachin),
   ],
   debug=True)
 
